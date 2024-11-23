@@ -1,5 +1,6 @@
 # caixa_branca
-Resumo dos erros principais
+
+## Resumo dos erros principais
 
 Vulnerabilidade à injeção de SQL.
 
