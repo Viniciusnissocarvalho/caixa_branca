@@ -10,7 +10,7 @@ import java.sql.Statement;
 
 public class User {
 
-    public Connection conectarBD() {
+public Connection conectarBD() {
     
         Connection conn = null;
         
