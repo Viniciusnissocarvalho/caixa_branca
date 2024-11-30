@@ -1,27 +1,45 @@
-# caixa_branca
+#Código com pontos numerados
 
-## Resumo dos erros principais
 
-Vulnerabilidade à injeção de SQL:
-Concatenar diretamente variáveis na consulta SQL permite que usuários mal-intencionados executem comandos no banco de dados, comprometendo sua segurança.
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
-Falta de tratamento adequado de exceções:
-Blocos catch vazios ignoram erros, tornando difícil identificar e corrigir problemas quando algo dá errado.
+public class User {
+    public Connection conectarBD() {
+        Connection conn = null;
+        try {
+4         Class.forName("com.mysql.DriverManager").newInstance();
+            String url = "jdbc:mysql://127.0.0.1/test?user=lopes&password=123";
+            conn = DriverManager.getConnection(url);
+6        } catch (Exception e) {
+        }
+5        return conn;
+    }
 
-Driver JDBC desatualizado ou incorreto:
-O driver usado para conectar ao banco de dados pode estar errado ou obsoleto, resultando em falha na conexão.
+    public String nome = "";
+    public boolean result = false;
 
-Exposição de credenciais sensíveis no código:
-Nome de usuário e senha do banco estão no código, o que facilita o acesso não autorizado se o código for compartilhado.
+ 1   public boolean verificarUsuario(String login, String senha) {
+ 2       String sql = "";
+ 3       Connection conn = conectarBD();
+        sql = "select nome from usuarios ";
+        sql += "where login = '" + login + "'";
+        sql += " and senha = '" + senha + "'";
+        try {
+ 7           Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+ 8           if (rs.next()) {
+ 9               nome = rs.getString("nome");
+ 10               result = true;
+            }
+ 12       } catch (Exception e) {
+        }
+ 11       return result;
+    }
+}
 
-Conexões não fechadas, causando possíveis vazamentos:
-A falta de fechamento da conexão com o banco pode esgotar os recursos disponíveis e causar problemas de desempenho.
-
-Uso inseguro de Statement:
-Usar Statement ao invés de PreparedStatement aumenta o risco de injeção de SQL e reduz a eficiência da execução de consultas.
-
-Falta de logs e rastreamento de erros:
-Não registrar mensagens de erro dificulta o diagnóstico e a manutenção, especialmente em sistemas complexos.
 
 
 
