@@ -21,8 +21,11 @@ public Connection conectarBD() {
             String url = "jdbc:mysql://127.0.0.1/test?user=lopes&password=123";
             
             conn = DriverManager.getConnection(url);
+            
 6        } catch (Exception e) {
+
         }
+    
 5        return conn;
     }
 
