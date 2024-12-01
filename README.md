@@ -24,5 +24,6 @@ Falta de logs e rastreamento de erros:
 Não registrar mensagens de erro dificulta o diagnóstico e a manutenção, especialmente em sistemas complexos.
 
 # Caixa Branca (Estático)
-![CAIXA BRANCA EXCEL](https://github.com/user-attachments/assets/da0b80df-8958-44bb-b93b-79e72406fbdf)
+![123](https://github.com/user-attachments/assets/a704d304-6e41-483e-bf5c-c239ed9f2791)
+
 
