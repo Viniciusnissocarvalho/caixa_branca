@@ -17,13 +17,9 @@ Nome de usuário e senha do banco estão no código, o que facilita o acesso nã
 Conexões não fechadas, causando possíveis vazamentos:
 A falta de fechamento da conexão com o banco pode esgotar os recursos disponíveis e causar problemas de desempenho.
 
-Uso inseguro de Statement:
-Usar Statement ao invés de PreparedStatement aumenta o risco de injeção de SQL e reduz a eficiência da execução de consultas.
-
-Falta de logs e rastreamento de erros:
-Não registrar mensagens de erro dificulta o diagnóstico e a manutenção, especialmente em sistemas complexos.
 
 # Caixa Branca (Estático)
-![123](https://github.com/user-attachments/assets/a704d304-6e41-483e-bf5c-c239ed9f2791)
+
+![a](https://github.com/user-attachments/assets/f99d1c55-70eb-4f36-9d6b-a5b69dc18ae6)
 
 
