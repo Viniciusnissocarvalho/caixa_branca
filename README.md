@@ -1,7 +1,6 @@
 # Projeto de Teste de Caixa Branca e Documentação de Código
 
 Este repositório contém um código de exemplo que realiza a verificação de usuários em um banco de dados MySQL. Através deste
-
 projeto, foram realizadas várias etapas de análise e melhoria do código utilizando a abordagem de Teste de Caixa Branca. Além 
 
 disso, este repositório inclui documentação do código e análise estática, juntamente com o preenchimento de formulários 
