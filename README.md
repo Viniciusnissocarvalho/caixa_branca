@@ -1,6 +1,6 @@
 # caixa_branca
 
-## Resumo dos erros principais
+## Resumo dos erros
 
 Vulnerabilidade à injeção de SQL:
 Concatenar diretamente variáveis na consulta SQL permite que usuários mal-intencionados executem comandos no banco de dados, comprometendo sua segurança.
