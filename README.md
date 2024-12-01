@@ -1,6 +1,6 @@
 # 1. Grafo de fluxo e seus caminhos
 
-[_Fluxo de Grafo (3).pdf](https://github.com/user-attachments/files/17969045/_Fluxo.de.Grafo.3.pdf)
+![Grafo(3)](https://github.com/user-attachments/assets/247b0e3a-37a1-4cef-9937-f1a372eadfb3)
 
 
 # 2. Complexidade Ciclomática
@@ -10,13 +10,13 @@ A complexidade ciclomática :
 
 Onde:
 
-E = Número de arestas (linhas): 15.
+E = Número de arestas (linhas): 14.
 
-N = Número de nós: 13.
+N = Número de nós: 11.
 
 Substituindo:
 
 
-V=15−13+2=4
+V=14−11+2=4
 
 
