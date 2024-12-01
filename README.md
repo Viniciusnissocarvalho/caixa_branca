@@ -1,6 +1,7 @@
 # 1. Grafo de fluxo e seus caminhos
 
-![kkkkk](https://github.com/user-attachments/assets/81db54c9-9dc9-4c88-aaad-2db149925039)
+[_Fluxo de Grafo (3).pdf](https://github.com/user-attachments/files/17969045/_Fluxo.de.Grafo.3.pdf)
+
 
 # 2. Complexidade Ciclomática
 A complexidade ciclomática :
