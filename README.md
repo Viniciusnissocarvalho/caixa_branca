@@ -4,7 +4,6 @@
 
 
 # 2. Complexidade Ciclomática
-A complexidade ciclomática :
 
 𝑉=𝐸−𝑁+2
 
@@ -17,6 +16,6 @@ N = Número de nós: 11.
 Substituindo:
 
 
-V=14−11+2=4
+V=14−11+2=5
 
 
